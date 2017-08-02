@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Smilies 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-03 12:32+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Crazy Loong <crazyloong@gmail.com>\n"
+"Language-Team: Crazy Loong <crazyloong@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../common.inc.php:114
+msgid "Preferences updated."
+msgstr "设置已更新。"
+
+#: ../common.inc.php:116
+msgid "No changes made."
+msgstr "没有改变设置。"
+
+#: ../common.inc.php:132
+msgid "Your smilies have been updated."
+msgstr "表情已更新。"
+
+#: ../common.inc.php:141
+msgid "Manage Smilies"
+msgstr "表情管理"
+
+#: ../common.inc.php:144
+msgid "Display all smilies"
+msgstr "显示全部表情"
+
+#: ../common.inc.php:144
+msgid "Display undefined smilies only"
+msgstr "显示未定义的表情"
+
+#: ../common.inc.php:147
+msgid "Please note that your smilies cannot contain any of these characters: ' \" \\"
+msgstr "注意：你的表情代码中不能包含下列字符：' \" \\"
+
+#: ../common.inc.php:154
+#: ../common.inc.php:160
+#: ../common.inc.php:166
+msgid "Smilie"
+msgstr "表情"
+
+#: ../common.inc.php:157
+#: ../common.inc.php:163
+#: ../common.inc.php:169
+msgid "What to type"
+msgstr "代码"
+
+#: ../common.inc.php:213
+msgid "Update"
+msgstr "更新"
+
+#: ../common.inc.php:217
+#: ../for25.php:6
+#: ../for27.php:179
+msgid "Smilies Options"
+msgstr "表情设置"
+
+#: ../common.inc.php:221
+msgid "Display these smilies above the comment form by default:"
+msgstr "显示默认表情："
+
+#: ../common.inc.php:224
+msgid "Put your smilies here, separated by comma. Example: <b>:D, :), :wink:, :(</b>"
+msgstr "在这里输入表情，用逗号隔开。例如：<b>:D, :), :wink:, :(</b>"
+
+#: ../common.inc.php:225
+msgid "Leave this field blank if you want to display all smilies."
+msgstr "如果你想显示全部表情，就将这里留空。"
+
+#: ../common.inc.php:229
+msgid "The name of the input box for comment:"
+msgstr "留言框ID："
+
+#: ../common.inc.php:232
+msgid "If you find Custom Smilies can&#39;t be used in your theme, there is a different id for comment input in your theme. So you could enter the id here."
+msgstr "如果 Custom Smilies 不能在你的主题里使用，应该是你的主题的留言框的ID使用了不同的ID。你可以在这里输入这个ID。"
+
+#: ../common.inc.php:236
+msgid "Popup window width:"
+msgstr "弹出窗口宽度："
+
+#: ../common.inc.php:242
+msgid "Popup window height:"
+msgstr "弹出窗口高度："
+
+#: ../common.inc.php:248
+msgid "Other options:"
+msgstr "其它设置："
+
+#: ../common.inc.php:253
+msgid "Use the action named comment_form in comments.php if your theme support it. So you don&#39;t need to add cs_print_smilies() in comments.php manually."
+msgstr "使用名为 comment_form 的 action，如果你的主题支持它的话。这样，你就不用手动添加 cs_print_smilies() 到 comments.php 了。"
+
+#: ../common.inc.php:260
+msgid "Update Options"
+msgstr "更新设置"
+
+#: ../custom-smilies.php:110
+msgid "Manage"
+msgstr "管理"
+
+#: ../custom-smilies.php:111
+#: ../custom-smilies.php:123
+msgid "Options"
+msgstr "设置"
+
+#: ../for25.php:6
+#: ../for27.php:179
+msgid "Smilies"
+msgstr "表情"
+
+#: ../for27.php:95
+#: ../for27.php:99
+#: ../for27.php:103
+msgid "Close"
+msgstr "关闭"
+
+#: ../lang.php:15
+msgid "Custom Smilies"
+msgstr "自定义表情"
+
+#: ../lang.php:20
+msgid "Insert Smilies"
+msgstr "插入表情"
+
+#~ msgid "Smilies Management"
+#~ msgstr "表情管理"
+#~ msgid ""
+#~ "The file init.php is nonexistent, and Custom Smilies has no permission to "
+#~ "create it. You must create it in %s manually"
+#~ msgstr ""
+#~ "文件 init.php 不存在，或者 Custom Smilies 没有权限创建这个文件。你必须手动"
+#~ "在 %s 里创建这个文件。"
+#~ msgid ""
+#~ "Custom Smilies has create init.php to make itself available. Now you can "
+#~ "<a href=\"%s\">use Custom Smilies</a>."
+#~ msgstr ""
+#~ "为了正常运行，Custom Smilies 已经自动创建了 init.php 文件。现在，你可以 "
+#~ "<a href=\"%s\">使用 Custom Smilies</a> 了"
+#~ msgid ""
+#~ "The file init.php is not writeable, so Custom Smilies is not available. "
+#~ "Please make it writable."
+#~ msgstr ""
+#~ "文件 init.php 不可写，所以 Custom Smilies 不能运行。请将 init.php 设置为可"
+#~ "写。"
+
